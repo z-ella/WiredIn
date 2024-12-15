@@ -1,0 +1,31 @@
+@import "https://cdn.jsdelivr.net/npm/bulma@1.0.2/css/bulma.min.css";
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.sponsor-img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 200px;  /* Keeps the image height uniform */
+}
+
+.sponsor-img img {
+  max-width: 100%;   /* Ensures images scale properly */
+  max-height: 100%;  /* Keeps the aspect ratio */
+  object-fit: contain; /* Ensures images are not stretched or distorted */
+  margin: 0 auto;   /* Centers images in their container */
+  padding: 20px;
+}
+.amazon-sponsor{
+  padding-top: 70px;
+}
