@@ -15,7 +15,6 @@ const App = () => {
         </div>
         <div className="navbar-menu">
           <div className="navbar-start">
-            <Link to="/" className="navbar-item">Home</Link>
             <Link to="/jobs" className="navbar-item">Jobs</Link>
             <Link to="/about" className="navbar-item">About</Link>
           </div>
