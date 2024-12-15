@@ -9,7 +9,7 @@ const Home = () => (
     {/* Title Section */}
     <section className="section">
       <center>
-        <h1 className="title">Business Link</h1><br />
+        <h1 className="title">WiredIn</h1><br />
         <h2 className="subtitle">
           Explore thousands of <strong>opportunities</strong>, customize your search, and connect with top companies. Start your career adventure with us today!
         </h2>
